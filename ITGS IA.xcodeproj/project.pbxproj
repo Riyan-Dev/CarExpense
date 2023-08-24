@@ -13,6 +13,17 @@
 		94082B09249C8170006388F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94082B08249C8170006388F4 /* Assets.xcassets */; };
 		94082B0C249C8170006388F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94082B0B249C8170006388F4 /* Preview Assets.xcassets */; };
 		94082B0F249C8170006388F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94082B0D249C8170006388F4 /* LaunchScreen.storyboard */; };
+		94082B17249C9030006388F4 /* AddCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94082B16249C9030006388F4 /* AddCar.swift */; };
+		94082B19249C9051006388F4 /* CarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94082B18249C9051006388F4 /* CarList.swift */; };
+		943D7968252D2A580035A1CB /* AddExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D7967252D2A580035A1CB /* AddExpense.swift */; };
+		945ADFB8252BD3D2004AD33C /* CarSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945ADFB7252BD3D2004AD33C /* CarSelect.swift */; };
+		947DD0BA253423BA00EC62E3 /* ExpenseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DD0B9253423BA00EC62E3 /* ExpenseList.swift */; };
+		947DD0BD2534290200EC62E3 /* AddMaintenance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DD0BC2534290200EC62E3 /* AddMaintenance.swift */; };
+		94BC8A12252A2454009587D5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BC8A11252A2454009587D5 /* Menu.swift */; };
+		94BC8A19252A2946009587D5 /* Technicians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BC8A18252A2946009587D5 /* Technicians.swift */; };
+		94BC8A20252A4730009587D5 /* CarDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BC8A1F252A4730009587D5 /* CarDetails.swift */; };
+		94DE6A69252BB1A50065F40C /* MonthlyExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE6A68252BB1A50065F40C /* MonthlyExpense.swift */; };
+		94FA96262534FD5900670E68 /* MaintenanceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FA96252534FD5900670E68 /* MaintenanceList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		94082B0B249C8170006388F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94082B0E249C8170006388F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94082B10249C8170006388F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94082B16249C9030006388F4 /* AddCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCar.swift; sourceTree = SOURCE_ROOT; };
+		94082B18249C9051006388F4 /* CarList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarList.swift; sourceTree = "<group>"; };
+		943D7967252D2A580035A1CB /* AddExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpense.swift; sourceTree = "<group>"; };
+		945ADFB7252BD3D2004AD33C /* CarSelect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSelect.swift; sourceTree = "<group>"; };
+		947DD0B9253423BA00EC62E3 /* ExpenseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseList.swift; sourceTree = "<group>"; };
+		947DD0BC2534290200EC62E3 /* AddMaintenance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMaintenance.swift; sourceTree = "<group>"; };
+		94BC8A11252A2454009587D5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		94BC8A18252A2946009587D5 /* Technicians.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technicians.swift; sourceTree = "<group>"; };
+		94BC8A1F252A4730009587D5 /* CarDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetails.swift; sourceTree = "<group>"; };
+		94DE6A68252BB1A50065F40C /* MonthlyExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyExpense.swift; sourceTree = "<group>"; };
+		94FA96252534FD5900670E68 /* MaintenanceList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintenanceList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +78,20 @@
 		94082B01249C8166006388F4 /* ITGS IA */ = {
 			isa = PBXGroup;
 			children = (
+				94082B16249C9030006388F4 /* AddCar.swift */,
 				94082B02249C8166006388F4 /* AppDelegate.swift */,
 				94082B04249C8166006388F4 /* SceneDelegate.swift */,
+				947DD0B9253423BA00EC62E3 /* ExpenseList.swift */,
 				94082B06249C8167006388F4 /* ContentView.swift */,
+				94BC8A11252A2454009587D5 /* Menu.swift */,
+				94DE6A68252BB1A50065F40C /* MonthlyExpense.swift */,
+				943D7967252D2A580035A1CB /* AddExpense.swift */,
+				94BC8A18252A2946009587D5 /* Technicians.swift */,
+				947DD0BC2534290200EC62E3 /* AddMaintenance.swift */,
+				94082B18249C9051006388F4 /* CarList.swift */,
+				945ADFB7252BD3D2004AD33C /* CarSelect.swift */,
+				94BC8A1F252A4730009587D5 /* CarDetails.swift */,
+				94FA96252534FD5900670E68 /* MaintenanceList.swift */,
 				94082B08249C8170006388F4 /* Assets.xcassets */,
 				94082B0D249C8170006388F4 /* LaunchScreen.storyboard */,
 				94082B10249C8170006388F4 /* Info.plist */,
@@ -102,7 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Muhammad Riyan";
 				TargetAttributes = {
 					94082AFE249C8166006388F4 = {
@@ -146,9 +179,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BC8A12252A2454009587D5 /* Menu.swift in Sources */,
+				94FA96262534FD5900670E68 /* MaintenanceList.swift in Sources */,
+				94082B19249C9051006388F4 /* CarList.swift in Sources */,
 				94082B03249C8166006388F4 /* AppDelegate.swift in Sources */,
+				943D7968252D2A580035A1CB /* AddExpense.swift in Sources */,
+				947DD0BD2534290200EC62E3 /* AddMaintenance.swift in Sources */,
+				947DD0BA253423BA00EC62E3 /* ExpenseList.swift in Sources */,
+				94BC8A19252A2946009587D5 /* Technicians.swift in Sources */,
 				94082B05249C8166006388F4 /* SceneDelegate.swift in Sources */,
+				94082B17249C9030006388F4 /* AddCar.swift in Sources */,
+				945ADFB8252BD3D2004AD33C /* CarSelect.swift in Sources */,
+				94DE6A69252BB1A50065F40C /* MonthlyExpense.swift in Sources */,
 				94082B07249C8167006388F4 /* ContentView.swift in Sources */,
+				94BC8A20252A4730009587D5 /* CarDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +236,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +297,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
